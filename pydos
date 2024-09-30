@@ -1,0 +1,6 @@
+echo -n "Root Files: "; ls
+
+echo -n "Which file would you like to execute? "
+read fname
+
+eval "python $fname"
